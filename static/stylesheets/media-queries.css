@@ -1,0 +1,38 @@
+/* 600 px */
+@media only screen and (min-width: 37.5em) {
+    .card {
+        background-color: var(--White);
+        box-shadow: 0.25em 0.25em 1em 0.125em rgba(0, 0, 0, 0.2);
+        border-radius: 2rem;
+    }
+}
+
+/* 1025 px */
+@media only screen and (min-width: 64.063em) {
+    body {
+        align-items: center;
+        height: 100vh;
+    }
+
+    .card {
+        width: calc(100vw - 50%);
+        display: flex;
+    }
+
+    .card_row-1 {
+        width: 100%;
+        border-radius: 2rem;
+    }
+
+    .card_row-2 {
+        width: 100%;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+    }
+}
+
+@media (hover: hover) {
+    .card_row-2__btn-continue:hover {
+        background: linear-gradient(to bottom, var(--Light-slate-blue-background), var(--Light-royal-blue-background));
+    }
+}
