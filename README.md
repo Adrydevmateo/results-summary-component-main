@@ -1,4 +1,4 @@
-# Some assets from this project where provided by Frontend Mentor
+# Some assets on this project where provided by Frontend Mentor
 
 - Frontend Mentor [https://www.frontendmentor.io/]
 
